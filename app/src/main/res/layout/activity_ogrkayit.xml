@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/res"
+    tools:context=".ogrkayit">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="749dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textarka"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ogrresmi"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="16dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/giris" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/resimsec"
+                    android:layout_width="81dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/btnarkaplan"
+                    android:text="Resim
+                    Seç"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ogrresmi" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/ogrenciadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/adi"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/ogrencisoyadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/soyadi"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/ogrencikimlikno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/kimno"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/ogrencidogum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/dogtrh"
+                android:inputType="date|datetime"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white"
+
+
+                />
+
+            <EditText
+                android:id="@+id/telno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/telno"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/ogrencino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/ogrno"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/ogrencisifre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/sif"
+                android:inputType="textVisiblePassword"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/tekrarsifre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/sift"
+                android:inputType="textVisiblePassword"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/EmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/universitesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/üniv"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/fakülte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/fak"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/bolumu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/bolum"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/sinifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/sinif"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/adres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textarka"
+                android:ems="10"
+                android:hint="@string/adres"
+                android:inputType="textMultiLine"
+                android:minHeight="100dp"
+                android:textColorHint="@color/white"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/kaytbuton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnarkaplan"
+                android:text="@string/kayit"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

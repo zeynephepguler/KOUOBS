@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">KOUOBS</string>
+    <string name="action_settings">Settings</string>
+    <string name="adi">ADI</string>
+    <string name="soyadi">SOYADI</string>
+    <string name="ogrno">ÖĞRENCİ NO</string>
+    <string name="adres">ADRES</string>
+    <string name="email">E-MAİL</string>
+    <string name="telno">TELEFON</string>
+    <string name="kimno">KİMLİK NO</string>
+    <string name="sinif">Sınıf Bilgisi</string>
+    <string name="bolum">Bölümü</string>
+    <string name="fak">Fakültesi</string>
+    <string name="üniv">Üniversitesi</string>
+    <string name="dogtrh">Doğum Tarihi</string>
+    <string name="sif">Şifre Oluştur</string>
+    <string name="sift">Şifrenizi Tekrar Giriniz</string>
+    <string name="kayit">KAYIT OL</string>
+    <string name="bilg">BİLGİLER</string>
+    <string name="title_activity_anasayfamenu">anasayfamenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="belge">
+        <item>seçiniz</item>
+        <item>Yaz okulu</item>
+        <item>Yatay Geçiş</item>
+        <item>DGS</item>
+        <item>ÇAP</item>
+        <item>Ders intibakı</item>
+    </string-array>
+
+    <string-array name="fak">
+        <item>seçiniz</item>
+        <item>Mühendislik</item>
+        <item>Teknolji</item>
+        <item>Hukuk</item>
+        <item>Eğitim</item>
+        <item>İletişim</item>
+    </string-array>
+
+    <string-array name="uni">
+        <item>seçiniz</item>
+        <item>Kocaeli Üniversitesi</item>
+    </string-array>
+
+    <string-array name="sinif">
+        <item>seçiniz</item>
+        <item>1.Sınıf</item>
+        <item>2.Sınıf</item>
+        <item>3.Sınıf</item>
+        <item>4.Sınıf</item>
+    </string-array>
+
+    <string-array name="bolumf">
+        <item>seçiniz</item>
+        <item>seçiniz</item>
+        <item>seçiniz</item>
+        <item>seçiniz</item>
+        <item>seçiniz</item>
+
+    </string-array>
+
+
+</resources>

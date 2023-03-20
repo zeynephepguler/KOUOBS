@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/res"
+    tools:context=".ogrencigiris">
+
+    <Button
+        android:id="@+id/ogrgiris"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="222dp"
+        android:background="@drawable/btnarkaplan"
+        android:text="giriş yap"
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sfremiunuttum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admnsifre" />
+
+    <EditText
+        android:id="@+id/ogrno"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/textarka"
+        android:drawableLeft="@drawable/giris"
+        android:ems="10"
+        android:hint=" Öğrenci No"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ogrencisifre"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/textarka"
+        android:drawableLeft="@drawable/sifre"
+        android:ems="10"
+        android:hint=" Şifre"
+        android:textColorHint="@color/white"
+        android:inputType="textWebPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ogrno"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/sfremiunuttum"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="222dp"
+        android:background="@drawable/btnarkaplan"
+        android:text="Şifremi Unuttum"
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" /><![CDATA[
+
+    />
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>

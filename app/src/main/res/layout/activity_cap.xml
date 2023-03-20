@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8B6C4"
+    tools:context=".cap">
+
+    <TextView
+        android:id="@+id/yaz"
+        android:layout_width="305dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/textarka"
+        android:text="Kocaeli Üniversitesi Çift Anadal Başvuru Sayfası"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/isim"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/textarka"
+        android:gravity="right"
+        android:paddingRight="8dp"
+        android:text="Ad:"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yaz" />
+
+    <TextView
+        android:id="@+id/sisim"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textarka"
+        android:gravity="right"
+        android:paddingRight="8dp"
+        android:text="Soyad:"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isim" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textarka"
+        android:gravity="right"
+        android:paddingRight="8dp"
+        android:text="Numara:"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sisim" />
+
+    <TextView
+        android:id="@+id/sin"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/textarka"
+        android:gravity="right"
+        android:paddingRight="8dp"
+        android:text="Sınıf:"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num" />
+
+    <EditText
+        android:id="@+id/veri_isim"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textarka"
+        android:text=" "
+        android:inputType="text"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/isim"
+        app:layout_constraintTop_toBottomOf="@+id/yaz" />
+
+    <EditText
+        android:id="@+id/veri_sisim"
+        android:inputType="text"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textarka"
+        android:text=" "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sisim"
+        app:layout_constraintTop_toBottomOf="@+id/veri_isim" />
+
+    <EditText
+        android:id="@+id/veri_num"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textarka"
+        android:text=" "
+        android:inputType="number"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/num"
+        app:layout_constraintTop_toBottomOf="@+id/veri_sisim" />
+
+    <EditText
+        android:id="@+id/veri_sin"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textarka"
+        android:text=""
+        android:inputType="number"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/sin"
+        app:layout_constraintTop_toBottomOf="@+id/veri_num" />
+
+    <Button
+        android:id="@+id/indir"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="284dp"
+        android:background="@drawable/btnarkaplan"
+        android:text="İNDİR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sin" />
+
+    <TextView
+        android:id="@+id/trskrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="89dp"
+        android:text="Transkript"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/indir"
+        app:layout_constraintTop_toBottomOf="@+id/veri_sin" />
+
+    <TextView
+        android:id="@+id/yuzdelik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="236dp"
+        android:text="Yüzdelik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trskrp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
